@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <title>NowPlaying from Last.fm</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="lastfm_js.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon-180x180.png" sizes="180x180">
+    <link rel="icon" type="image/png" href="img/android-chrome-192x192.png" sizes="192x192">
+</head>
+<body onload="get_nowplaying()">
+    <h1>NowPlaying from Last.fm</h1>
+    <div>
+        <textarea id='kekka'>ここに結果が表示されるよ！</textarea>
+    </div>
+    <div>
+        <a href="#" id='btn' class="btn-square-pop" onclick="get_nowplaying()">Reload</a>
+    </div>
+    <div>
+        <a href="#" id='tw' class="btn-square-pop" onclick="post()">tweet</a>
+    </div>
+</body>
+</html>

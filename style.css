@@ -1,0 +1,41 @@
+body {
+    background-color: #FFe4b5;
+}
+
+h1 {
+  border-bottom: double 5px #fd9535;
+  text-align: center;
+}
+
+textarea#kekka {
+    width: 100%;
+    height: 30vh;
+    font-size: 2rem;
+}
+
+div {
+    width: 98%;
+    padding: 1%;
+}
+
+.btn-square-pop {
+  position: relative;
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #FFF;
+  background: #fd9535;/*背景色*/
+  border-bottom: solid 2px #d27d00;/*少し濃い目の色に*/
+  border-radius: 4px;/*角の丸み*/
+  box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+  font-size: 5vh;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.btn-square-pop:active {
+  border-bottom: solid 2px #fd9535;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
