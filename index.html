@@ -9,7 +9,7 @@
     <link rel="apple-touch-icon" href="img/apple-touch-icon-180x180.png" sizes="180x180">
     <link rel="icon" type="image/png" href="img/android-chrome-192x192.png" sizes="192x192">
 </head>
-<body onload="get_nowplaying()">
+<body onload="init()">
     <h1>NowPlaying from Last.fm</h1>
     <div>
         <textarea id='kekka'>ここに結果が表示されるよ！</textarea>
@@ -19,6 +19,11 @@
     </div>
     <div>
         <a href="#" id='tw' class="btn-square-pop" onclick="post()">tweet</a>
+    </div>
+    <div>
+        username:<input type="text" id='username'><br>
+        api-key:<input type="text" id='apikey'><br>
+        <a href="#" id='save' onclick="save_cookies()">save</a>
     </div>
 </body>
 </html>

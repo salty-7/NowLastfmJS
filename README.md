@@ -4,5 +4,5 @@
 
 ## 使い方
 
-- lastfm_js.jsの17行目辺りにlast.fmのapiのURLがあるので、自分のユーザ名とAPIキーを設定してね！
+- usernameとapi-keyに、自分のLast.fmユーザ名とAPIキーを設定してね！
 - twitterはtwitterのtweetページに飛ぶので、自分のtwitterアカウントでログインしてね！
