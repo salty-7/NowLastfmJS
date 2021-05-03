@@ -21,7 +21,7 @@ function get_nowplaying(){
     
     var username = document.getElementById('username').value;
     var api_key = document.getElementById('apikey').value;
-    xmlHttpRequest.open( 'GET', 'http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=' + username + '&api_key=' + api_key + '&format=json&limit=1', true );
+    xmlHttpRequest.open( 'GET', 'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=' + username + '&api_key=' + api_key + '&format=json&limit=1', true );
     xmlHttpRequest.responseType = 'json';
     xmlHttpRequest.send( null );
 }
