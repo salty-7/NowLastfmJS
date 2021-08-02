@@ -45,7 +45,7 @@ function get_cookies(){
 
 function save_cookies(){
     var datetime = new Date();
-    datetime.setDate(datetime.getDate() + 7);
+    datetime.setDate(datetime.getDate() + 90);
     var option = ';SameSite=Lax;Path=/;expires=' + datetime.toUTCString();
     if(document.getElementById('username') != ""){
         document.cookie = 'username=' + encodeURIComponent(document.getElementById('username').value) + option;
